@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta chaset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href='style_galerie.css' rel='stylesheet' type='text/css'>
+		<link href="https://fontawesome.com/search?q=phone&o=r" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>Atelier de artă plastică</title>
+	</head>
+	<body>
+		<header>
+			<!-- meniu -->
+			<nav class="navbar">
+				<input type="checkbox" id="menu-bar">
+				<label for="menu-bar">
+					<i class="fa fa-bars" id="bars"></i>
+				</label>
+				
+
+				
+				<ul class="menu">
+					<li class="nav-link">
+    					<a href="home.html">Acasă</a>
+					</li>
+					<li class="nav-link">
+    					<a href="#desprenoi">Despre noi</a>
+					</li>
+                        <li class="nav-link drops">
+                            <a>Cursuri și activități</a>
+                                <span class="material-icons dropdown-icon">
+                                arrow_drop_down
+                                </span>
+                            </a>
+                            <ul class="drop-down">
+                                <li class="sub-link">
+                                    <a href="cursuri.html">Cursuri</a>
+                                </li>
+                                <li class="sub-link">
+                                        <a href="petreceri.html">Petreceri</a>
+                                </li>
+                                <li class="sub-link">
+                                    <a href="scoala.html">Scoala de vara</a>
+                            </li>
+                            </ul>	
+                        </li>
+					</li>
+					<li class="nav-link">
+                        <a href="#galerie">Galerie foto</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="contact.html">Contact</a>
+                    </li>
+				</ul>
+
+			</nav>
+		</header>
+
+        <!-- <section class="home">
+            <div class="picture">
+                <img src="poza.jpg" alt="mepicture">
+            </div>
+
+            <div class="prob">
+                <img src="proba.jpg" alt="picture">
+            </div>
+        </div> -->
+        <section class="title">
+            <h1>Galerie foto</h1>
+            <h3>"Omul pictează cu mintea, nu cu mâinile” - Michelangelo</h3>
+        </section>
+
+        <div class="slider hi-slide">
+            <div class="hi-prev"></div>
+            <div class="hi-next"></div>
+            <ul>
+                <li><img src="pict3.PNG" alt="p1"></li>
+                <li><img src="pict4.PNG" alt="p2"></li>
+                <li><img src="pict5.PNG" alt="p3"></li>
+                <li><img src="pict6.PNG" alt="p4"></li>
+                <li><img src="pic1.jpeg" alt="p5"></li>
+                <li><img src="pic2.jpeg" alt="p6"></li>
+                <li><img src="pic3.jpeg" alt="p7"></li>
+                <li><img src="pic4.jpeg" alt="p8"></li>
+            </ul>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+        <script type="text/javascript" src="jquery.hislide.js"></script>
+
+        <script>
+
+            $('.hi-slide').hiSlide();
+
+        </script>
+		
+		<!-- footer -->
+		<footer>
+			<div class="footer">
+				&copy; Ilinca Popovici- last update: 22.08.2024
+			</div>
+		</footer>
+
+
+    </body>
+
+</html>
